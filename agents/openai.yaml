@@ -1,0 +1,4 @@
+interface:
+  display_name: "ABBY Seedance Director"
+  short_description: "电影级 Seedance 分镜、场景生态与成片修复"
+  default_prompt: "Use $abby-seedance to turn my story idea into a production-ready Seedance prompt with realistic scene ecology."
