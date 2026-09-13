@@ -1,4 +1,4 @@
 interface:
   display_name: "ABBY Seedance Director"
-  short_description: "电影级 Seedance 分镜、场景生态与成片修复"
-  default_prompt: "Use $abby-seedance to turn my story idea into a production-ready Seedance prompt with realistic scene ecology."
+  short_description: "基于JACOB的统一视频工作流：逐镜焦段、真实表演、场景生态与连续性"
+  default_prompt: "使用 $abby-seedance，严格按本项目已确认设定输出一个完整视频提示词，每镜明确焦段、景别、机位与运镜。"

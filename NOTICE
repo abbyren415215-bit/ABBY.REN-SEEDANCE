@@ -1,0 +1,24 @@
+ABBY Seedance Director
+
+Adapted from JACOB YE SEEDANCE PROMPT by Jacob Ye, CC BY 4.0.
+Upstream: https://github.com/jacobye2017-afk/jacob-ye-seedance-prompt
+Pinned commit: f74d2fcfa803cec4007fdfbeae9cde8831693ee7
+Upstream release notes: 2.1; FORMULA footer: V3.3.
+Upstream source, notices and license are preserved in upstream/jacob/.
+Packaging changes: SKILL.md is named SKILL.source.md to prevent duplicate
+skill discovery; the two README links are adjusted accordingly. Source wording
+is otherwise retained. The archived Seedance Director entry uses the same rename.
+
+ABBY changes: realistic scene ecology, identity/reference isolation, opening and
+story pacing, performance timing, dialogue/voice ownership, physical continuity,
+per-shot cinematography, stable endings, project-specific rule precedence,
+review/repair and persistent GitHub synchronization. Changes are documented in
+CHANGELOG.md. ABBY adaptations are released under CC BY 4.0.
+
+Local Seedance Director source is preserved in archive/seedance-director/ under
+its MIT license and third-party notices. Selected contact-continuity and sound
+design ideas are integrated in references/contact-and-sound.md. This archived
+workflow is not an additional execution entrypoint.
+
+Upstream platform assertions and historical case-study results are attributed
+source material, not guarantees by ABBY about current platform behavior.

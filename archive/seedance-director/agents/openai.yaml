@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seedance 导演提示词"
+  short_description: "把一句视频灵感变成可直接投喂即梦的专业中文提示词和分镜方案"
+  default_prompt: "使用 $seedance-director，把我的视频想法扩写成可直接复制到即梦 Seedance 的专业提示词。"

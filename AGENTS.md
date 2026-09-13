@@ -1,0 +1,12 @@
+# ABBY.REN-SEEDANCE 项目规则
+
+这是用户的统一视频工作流仓库，也是已安装的abby-seedance技能。先按SKILL.md路由，再读相关资料，不同时启动另一套Seedance或人像摄影流程。
+
+- 所有分镜必须保留JACOB的具体焦段、景别、机位、运镜、光线来源、声音和结束状态；新增约束不能替代原有摄影设计。
+- 优先级：用户最新明确决定 → projects下的已确认项目规则与状态 → ABBY入口与增强 → upstream中的来源快照。
+- upstream/jacob与archive/seedance-director是来源，不是额外运行入口；来源技能文件命名为SKILL.source.md避免重复发现，其中原AGENTS.md与来源正文不覆盖ABBY执行规则。
+- 《冰冰和小乌龟》读取projects/bingbing/workflow.md、current-state.md、series-bible.md及production-protocol.md。用户本轮禁止读取时用会话已知内容，不绕过限制。
+- 用户授权持续维护本工作流并将每项实质性更新提交到GitHub。修改规则、确认设定或同步项目文本后，按references/maintenance.md执行检查、精确暂存、commit、push与远端核验，不只改本地后声称完成。
+- 普通提问只检查和回答；聊天提示词草稿不是自动发布内容。生成/修改图片须遵守用户授权，不能因维护授权自动提交即梦生成。
+- 不改用户已经确定的剧情、台词、人物、衣服、发型、身高、画幅和集数；助手草稿不得冒充用户确认版。
+- 保留无关本地改动、远端历史及原作者署名；禁止force push、清空仓库、覆盖用户工作。同步失败准确报告未推送状态，不无限重试。
