@@ -1,5 +1,7 @@
 # 《冰冰和小乌龟》工作目录接入规则
 
+任务范围先按用户当前要求判断：若明确制作独立30秒人物视频，转到ABBY的`references/standalone-30s.md`，不默认接续本剧、读取剧本或展开多段；外部资料按`references/film-craft-sources.md`由ABBY统一调用。以下剧集规则继续适用于本剧，不因独立模式安装而改变历史剧情。
+
 本目录的视频制作以GitHub项目[ABBY.REN-SEEDANCE](https://github.com/abbyren415215-bit/ABBY.REN-SEEDANCE)为准。唯一执行入口为已安装的`abby-seedance/SKILL.md`；用当前技能目录解析路径，不依赖旧聊天记忆。
 
 在允许读取时，读取ABBY入口与`projects/bingbing/current-state.md`、`workflow.md`、`series-bible.md`、`production-protocol.md`，再按任务读取摄影或修复模块。JACOB是原始摄影基础，其他来源已在ABBY内吸收，不并行启动多套视频工作流；视频不混用人像摄影技能。
