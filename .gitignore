@@ -12,3 +12,7 @@ __pycache__/
 *.jpeg
 *.webp
 *.zip
+
+# Local-only script records; publishing requires separate explicit authorization.
+/剧本内容/
+/projects/bingbing/episode-08-continuity.md

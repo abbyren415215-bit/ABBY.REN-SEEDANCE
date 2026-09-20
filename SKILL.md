@@ -17,7 +17,7 @@ description: >
 
 - 任何完整视频提示词：使用 [摄影与逐镜头模板](references/cinematography.md)。每个独立镜头都要写具体焦段与可见效果。
 - 《冰冰和小乌龟》：执行 [项目工作规则](projects/bingbing/workflow.md)；用户允许读取时核对 [当前已确认状态](projects/bingbing/current-state.md)、[系列设定](projects/bingbing/series-bible.md)、[稳定生成协议](projects/bingbing/production-protocol.md)与本地对应副本。不得只读旧固定设定档而漏掉当前状态。
-- 第八集续写：按[连续性记录](projects/bingbing/episode-08-continuity.md)核对段号、已用台词、人物已知信息、最新电话结尾和素材可用性；不把助手草稿当用户确认。
+- 剧集续写：用户允许读取时，按工作目录的本地剧本资料核对段号、已用台词、角色知识、结束状态和素材；具体剧本不因工作流维护授权而同步GitHub。只要提示词时仍直接使用会话已知内容，不调用工具。
 - 人物、对白、道具、跨镜连续性：按任务阅读 [ABBY 实拍规则](references/abby-production-rules.md)。
 - 吃喝、递接、佩戴或具体拟音：阅读 [接触与现场声](references/contact-and-sound.md)，保留动作因果和自然反应延迟。
 - 多视图、图片或音色参考：[身份与引用](references/identity-and-references.md)、[JACOB 素材纪律](references/jacob-material-discipline.md)、[音色延续](references/jacob-voice-continuity.md)。
