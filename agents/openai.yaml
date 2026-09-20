@@ -1,4 +1,6 @@
 interface:
   display_name: "ABBY Seedance Director"
-  short_description: "基于JACOB的统一视频工作流：独立30秒真人短片、逐镜摄影与剧集连续性"
-  default_prompt: "使用 $abby-seedance，严格按本项目已确认设定输出一个完整视频提示词，每镜明确焦段、景别、机位与运镜。"
+  short_description: "基于JACOB的统一视频工作流：逐句对口型弹唱、独立真人短片与剧集连续性"
+  default_prompt: "使用 $abby-seedance，按当前任务自动选择对口型唱歌、独立短片或剧集模式，遵守已确认素材和输入长度，交付当前一段提示词。"
+policy:
+  allow_implicit_invocation: true

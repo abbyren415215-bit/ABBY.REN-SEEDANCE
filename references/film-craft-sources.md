@@ -13,16 +13,17 @@
 
 本地安装位置为Codex用户目录下的`reference-libraries/abby-film-craft/`，与`skills/`并列，不置于自动发现的技能目录中。先使用当前环境的CODEX_HOME；未设置时使用用户目录下的`.codex`，不公开写入机器专用绝对路径。该目录中的`installed-sources.json`记录各来源提交及逐文件SHA-256，只有核对本机文件后才能声称本机已安装。
 
-这些库没有作为独立技能注册；它们由ABBY引用。仅有本仓库、尚未安装参考库的机器，先使用standalone-30s.md和现有摄影规则；需要深读时说明资料可用性，不谎称已读或自行联网安装。用户只要提示词时不为读取这些资料调用工具。
+这些库没有作为独立技能注册；它们由ABBY引用。仅有本仓库、尚未安装参考库的机器，先使用对应模式和现有摄影规则；需要深读时说明资料可用性，不谎称已读或自行联网安装。只要提示词时也可读取最少必要的已安装资料；明确禁止工具时仅复用会话内容。
 
 ## 只读取当前需要的部分
 
 以下路径均相对上述本地参考库根目录。只需要既有已确认规则即可写好时，不重复加载资料。
 
-用户已授权ABBY根据效果描述自动选择合适模块，无需点名技能。模块选择不是新工作流入口，也不意味着每次读取所有资料；关键意图不确定时用少量问题确认，保持只要提示词时不调用工具、未见素材不假称核验的规则。
+用户已授权ABBY根据效果描述自动选择并实际读取合适模块，无需点名技能。模块选择不是新工作流入口，也不意味着每次读取所有资料；已读资料在上下文中可复用。关键意图不确定时用少量问题确认；未见素材不假称核验，不把参考资料读取当作生成或付费授权。
 
 | 当前问题 | 参考文件 | 使用边界 |
 |---|---|---|
+| AI对口型唱歌、逐句吉他弹唱、闭眼陶醉、唱歌时手部入画 | 本仓库[对口型唱歌](lip-sync-singing.md)；只有具体问题需要时才增读下列对应模块 | 一句一段、按当前输入上限精简；固定镜头不自动引入FPV或身体联动，不套短剧禁歌和30秒尾段规则 |
 | 30秒的核心体验和人物行为不清 | `emily-seedance/references/directors-read.md`、`emily-seedance/references/directing-engine.md` | 提取情境、动作与摄影动机；不把十字段记录变成用户问卷或要求每片必有冲突 |
 | 动作太多、提示词冗长 | `emily-seedance/references/event-density.md`、`emily-seedance/references/anti-slop-lexicon.md` | 删冗余而非锁定剧情；不按来源默认擅自增段、改时长或删摄影字段 |
 | 面部受光、材质或景深不可信 | `director-skills/skills/style-cinematography-director/references/lighting_and_photorealism.md`、`director-skills/skills/style-cinematography-director/references/camera_lens_movement.md` | 用具体光源和材料响应解释质感；不强加毛孔、污渍、颗粒、眩光或浅景深 |
