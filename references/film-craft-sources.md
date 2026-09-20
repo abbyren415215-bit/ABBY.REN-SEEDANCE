@@ -19,13 +19,15 @@
 
 以下路径均相对上述本地参考库根目录。只需要既有已确认规则即可写好时，不重复加载资料。
 
+用户已授权ABBY根据效果描述自动选择合适模块，无需点名技能。模块选择不是新工作流入口，也不意味着每次读取所有资料；关键意图不确定时用少量问题确认，保持只要提示词时不调用工具、未见素材不假称核验的规则。
+
 | 当前问题 | 参考文件 | 使用边界 |
 |---|---|---|
 | 30秒的核心体验和人物行为不清 | `emily-seedance/references/directors-read.md`、`emily-seedance/references/directing-engine.md` | 提取情境、动作与摄影动机；不把十字段记录变成用户问卷或要求每片必有冲突 |
 | 动作太多、提示词冗长 | `emily-seedance/references/event-density.md`、`emily-seedance/references/anti-slop-lexicon.md` | 删冗余而非锁定剧情；不按来源默认擅自增段、改时长或删摄影字段 |
 | 面部受光、材质或景深不可信 | `director-skills/skills/style-cinematography-director/references/lighting_and_photorealism.md`、`director-skills/skills/style-cinematography-director/references/camera_lens_movement.md` | 用具体光源和材料响应解释质感；不强加毛孔、污渍、颗粒、眩光或浅景深 |
 | 人物换位、视线失配、手部/道具冲突 | `cinema-worldbuilder/SKILL.md` 中Frame Map、Subject Lock、Movement、Last Frame相关段落 | 只借空间与结束状态方法；其技能身份、确认流程和格式不是执行入口 |
-| 明确要求FPV、空间穿行或一镜到底路线 | `fpv-immersive-video-prompting/skill/SKILL.md`；必要时`fpv-immersive-video-prompting/skill/references/session-patterns.md` | 提取视点物理、路线可达性、遮挡、停靠与终点方法；不默认多人物、八个目标、编号图、红线图或生图资产包，不自动启用另一个技能 |
+| 效果描述涉及FPV、空间穿行、主观视点或连续路线，无需点名技能 | `fpv-immersive-video-prompting/skill/SKILL.md`；必要时`fpv-immersive-video-prompting/skill/references/session-patterns.md` | 提取视点物理、路线可达性、遮挡、停靠与终点方法；不默认多人物、八个目标、编号图、红线图或生图资产包，不自动启用另一个技能 |
 | 已有成片不对 | ABBY的`review-and-repair.md`；必要时`emily-seedance/references/retake-protocol.md` | 先看实际问题；素材读取、生成、付费按用户当次授权，不自动重跑 |
 
 ## 冲突裁决和维护
