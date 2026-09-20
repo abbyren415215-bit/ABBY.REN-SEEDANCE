@@ -17,6 +17,7 @@ description: >
 
 - 任何完整视频提示词：使用 [摄影与逐镜头模板](references/cinematography.md)。每个独立镜头都要写具体焦段与可见效果。
 - 独立30秒人物视频：使用 [独立短片模式](references/standalone-30s.md)，不默认接续剧集、读取剧本或扩展多段。先定一个观看目标，再设计摄影、自然表演和空间动作；外观、行为、环境关系共同形成真实感。新安装参考库只按 [来源与调用](references/film-craft-sources.md) 取用相关资料，不启动第二套工作流。用户只要提示词时仍依据会话已知规则直接交付，不调用工具。
+- 用户明确要FPV、空间穿行或一镜到底路线时，按独立模式中的FPV规则设计视点身份、起点、可达路径、互动和终点；按需查阅已安装FPV运镜导演资料，不把普通人物镜头自动改成飞行，不自动生成路线图或补人物图。
 - 《冰冰和小乌龟》：执行 [项目工作规则](projects/bingbing/workflow.md)；用户允许读取时核对 [当前已确认状态](projects/bingbing/current-state.md)、[系列设定](projects/bingbing/series-bible.md)、[稳定生成协议](projects/bingbing/production-protocol.md)与本地对应副本。不得只读旧固定设定档而漏掉当前状态。
 - 剧集续写：用户允许读取时，按工作目录的本地剧本资料核对段号、已用台词、角色知识、结束状态和素材；具体剧本不因工作流维护授权而同步GitHub。只要提示词时仍直接使用会话已知内容，不调用工具。
 - 人物、对白、道具、跨镜连续性：按任务阅读 [ABBY 实拍规则](references/abby-production-rules.md)。
