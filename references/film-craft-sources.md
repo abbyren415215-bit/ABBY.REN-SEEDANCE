@@ -1,11 +1,14 @@
-# 独立短片参考库：来源与调用
+# 影视参考库：来源与调用
 
 这是用户在比较项目后明确批准的安装方案，适用于[独立30秒模式](standalone-30s.md)。仅安装参考资料，不增加相互竞争的自动技能入口。JACOB继续使用本仓库已固定版本，不重复安装或更新；Everything AI Filmmaking与Storyboarder不在本次选定流程的安装范围。
+
+2026-09-21追加授权Liyue视频导演：其真人表演、情侣戏、物理因果及冲突审查也用于剧集，按[Liyue接入裁决](liyue-realistic-performance.md)执行；不改变其他来源原有适用边界。
 
 ## 已固定来源
 
 | 本地库目录名 | 来源与固定提交 | 安装范围 | 许可 |
 |---|---|---|---|
+| `liyue-seedance-2-5-video-director` | [liyue-aigc/seedance-2-5-video-director](https://github.com/liyue-aigc/seedance-2-5-video-director/tree/ad0e68ba6ce24fb9ae9c67c9276061cef37663f1) | 完整来源，保留依赖、LICENSE及NOTICE.md；仅按需读取 | MIT |
 | `emily-seedance` | [Emily2040/seedance-2.0](https://github.com/Emily2040/seedance-2.0/tree/9ea203f14f092127296ed4d750ece1f2b28090fb) | 根目录，保留相对依赖；只作为资料读取 | MIT |
 | `director-skills` | [0xhughs/director-skills](https://github.com/0xhughs/director-skills/tree/35ca0a2b4cd55b0668aa9ea0f40273324b774bb4) | 根目录，保留参考文档和许可证 | MIT |
 | `cinema-worldbuilder` | [Gregory-Esman/ai-film-pipeline](https://github.com/Gregory-Esman/ai-film-pipeline/tree/560cfc11530c4a682534e77e124752d537a623fd) | `cinema-worldbuilder/`，另附仓库LICENSE与UPSTREAM-README.md | 上游MIT文本及来源说明 |
@@ -23,6 +26,7 @@
 
 | 当前问题 | 参考文件 | 使用边界 |
 |---|---|---|
+| 真人对白、情侣戏、听者反应、情绪延续、接触动作及相关废片 | `liyue-seedance-2-5-video-director/SKILL.md`及`references/realistic-direction-patterns.md` | 剧集与独立片自动选用；具体裁决见本仓库`liyue-realistic-performance.md`，不继承默认时长/格式、不预制站位合成图、不逐句叹气 |
 | AI对口型唱歌、逐句吉他弹唱、闭眼陶醉、唱歌时手部入画 | 本仓库[对口型唱歌](lip-sync-singing.md)；只有具体问题需要时才增读下列对应模块 | 一句一段、按当前输入上限精简；固定镜头不自动引入FPV或身体联动，不套短剧禁歌和30秒尾段规则 |
 | 30秒的核心体验和人物行为不清 | `emily-seedance/references/directors-read.md`、`emily-seedance/references/directing-engine.md` | 提取情境、动作与摄影动机；不把十字段记录变成用户问卷或要求每片必有冲突 |
 | 动作太多、提示词冗长 | `emily-seedance/references/event-density.md`、`emily-seedance/references/anti-slop-lexicon.md` | 删冗余而非锁定剧情；不按来源默认擅自增段、改时长或删摄影字段 |

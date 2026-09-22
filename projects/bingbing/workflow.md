@@ -4,6 +4,8 @@
 
 ## 唯一工作流
 
+用户2026-09-21已授权接入[Liyue真人表演补充](../../references/liyue-realistic-performance.md)：对白、情侣戏、听者反应和接触动作自动调用其本地原文；不需用户提醒，不另起竞争工作流，不覆盖本项目时长、素材、声音、摄影和已确认剧情规则。
+
 使用ABBY统一入口，以JACOB导演/摄影体系为基础叠加本项目约束。不要同时运行jacob-seedance、seedance-director等多套默认流程。视频任务不得混用fantasy-life-force-portrait-photography；人像图片任务才按用户需要使用相应图片技能。
 
 2026-09-19用户再次确认继续ABBY／JACOB唯一工作流；调研过的其他项目不自动安装、导入或作为新执行入口。最近创作原则见稳定协议0.7—0.10；具体剧本与单集状态仅存本地，不因通用规则更新上传GitHub。

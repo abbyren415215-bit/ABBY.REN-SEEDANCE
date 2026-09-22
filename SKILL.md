@@ -22,6 +22,7 @@ description: >
 - 《冰冰和小乌龟》：执行 [项目工作规则](projects/bingbing/workflow.md)；用户允许读取时核对 [当前已确认状态](projects/bingbing/current-state.md)、[系列设定](projects/bingbing/series-bible.md)、[稳定生成协议](projects/bingbing/production-protocol.md)与本地对应副本。不得只读旧固定设定档而漏掉当前状态。
 - 剧集续写：用户允许读取时，按工作目录的本地剧本资料核对段号、已用台词、角色知识、结束状态和素材；具体剧本不因工作流维护授权而同步GitHub。只要提示词时依据会话已知剧情直接交付，可按下方边界读取必要技能资料，不自动扫描私有剧本。
 - 人物、对白、道具、跨镜连续性：按任务阅读 [ABBY 实拍规则](references/abby-production-rules.md)。
+- 真人对白、情侣戏、听者反应、情绪延续和接触动作：自动使用已获授权的 [Liyue 真人表演补充](references/liyue-realistic-performance.md)，按其路由实际读取本地技能原文；服务剧集与独立人物视频，不需用户点名，不另启工作流。
 - 吃喝、递接、佩戴或具体拟音：阅读 [接触与现场声](references/contact-and-sound.md)，保留动作因果和自然反应延迟。
 - 多视图、图片或音色参考：[身份与引用](references/identity-and-references.md)、[JACOB 素材纪律](references/jacob-material-discipline.md)、[音色延续](references/jacob-voice-continuity.md)。
 - 公共场景：[场景生态](references/scene-ecology.md)；人物近景也保留合理背景动态。
