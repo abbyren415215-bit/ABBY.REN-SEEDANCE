@@ -1,5 +1,7 @@
 # ABBY.REN-SEEDANCE 项目规则
 
+- B-roll按稳定协议0.14主动安排：剧情/日常番外需有独立的场景与动作细节镜头，按地点、因果及结果分散编排；不能只用虚化背景或把双人中景改名充数。逐镜保留焦段、光源、声源和状态连续性，不切碎关键表演、不新增无关素材；明确一镜到底与固定机位对口型唱歌不强插。 详见projects/bingbing/production-protocol.md及references/cinematography.md。
+
 这是用户的统一视频工作流仓库，也是已安装的abby-seedance技能。先按SKILL.md路由，再读相关资料，不同时启动另一套Seedance或人像摄影流程。
 
 - 所有分镜必须保留JACOB的具体焦段、景别、机位、运镜、光线来源、声音和结束状态；新增约束不能替代原有摄影设计。
