@@ -1,5 +1,7 @@
 # ABBY.REN-SEEDANCE 项目规则
 
+完整动作参考舞蹈执行稳定协议0.16：自动读取ABBY的 `references/reference-driven-dance.md`；完整素材逐半秒核对关键动作，中近景与动作B-roll衔接，保留真实末势和当前画幅/时长，不改前5秒试片、不编造不可见脚步。同类任务默认沿用已认可方法，具体案例与媒体留本地。
+
 - B-roll按稳定协议0.14主动安排：剧情/日常番外需有独立的场景与动作细节镜头，按地点、因果及结果分散编排；不能只用虚化背景或把双人中景改名充数。逐镜保留焦段、光源、声源和状态连续性，不切碎关键表演、不新增无关素材；明确一镜到底与固定机位对口型唱歌不强插。 详见projects/bingbing/production-protocol.md及references/cinematography.md。
 
 这是用户的统一视频工作流仓库，也是已安装的abby-seedance技能。先按SKILL.md路由，再读相关资料，不同时启动另一套Seedance或人像摄影流程。

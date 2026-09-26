@@ -1,5 +1,7 @@
 # ABBY Seedance Director
 
+完整白模/真人舞蹈任务自动使用[动作参考舞蹈模块](references/reference-driven-dance.md)：完整动作拆解、中近景主体、动作衔接B-roll与真实末势，见稳定协议0.16。
+
 基于JACOB导演与摄影框架，合并ABBY历次实拍优化的统一Seedance提示词工作流。
 
 从[SKILL.md](SKILL.md)进入。每镜头具体设计焦段、景别、机位、运镜、光线、声音与结束状态；人物、场景、道具和音色分别绑定，创作规则服从用户已确认项目。
