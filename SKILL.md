@@ -18,7 +18,7 @@ description: >
 
 优先级：用户当前明确决定 → 项目已确认状态与规则 → 本入口与 ABBY 增强 → JACOB 上游原文。先看 [规则裁决](references/rule-precedence.md)，避免把上游旧默认值重新覆盖到项目上。
 
-- 已有视频剪辑、删除冗余、快慢节奏、配乐卡点或照片结尾：直接执行 [本地视频剪辑](references/local-video-editing.md)，检查素材后实际导出成片；不转回提示词生成，不把旧片素材或音乐偏好自动混入新任务。
+- 已有视频剪辑、删除冗余、快慢节奏、配乐卡点或照片结尾：直接执行 [本地视频剪辑](references/local-video-editing.md)，检查素材后实际导出成片；不转回提示词生成，不把旧片素材或音乐偏好自动混入新任务。剪辑时主动反馈人物表情细节与B-roll机会，附时间点和提示词改法，帮助下一次生成。
 - 完整视频及补镜提示词自动使用 [精细提示词标准](references/detailed-prompt-standard.md)：以用户认可的《发如雪》写法为标杆，逐镜摄影＋镜内动作节拍＋具体衔接，不压成几秒一句的概述；芭蕾不作为成功范例。对口型和无文字栏入口按各自模式执行。
 - 用户已批准补充即梦执行与字幕技能：按 [已安装执行模块](references/installed-execution-skills.md) 自动调用 `dreamina-cli`、`dreamina-cli-image2video`、`auto-subtitles`；ABBY保持唯一创作入口，已批准预算内代办，不要求用户每次点名。
 - 用户最新选择 [剧本确认后自动制作与后期字幕](references/generated-clean-final-captioned.md)：先给剧本，用户选定后助手写精细提示词并代办生成、下载、审片、剪辑及字幕成片；当前4场各30秒。生成无BGM无字幕，后期按实际对白加字幕，最终无BGM。预算、版本和队列按 [审批制整集制作](references/approval-led-production.md) 执行，不逐场/逐份重复要审批。

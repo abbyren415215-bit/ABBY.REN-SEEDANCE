@@ -1,5 +1,7 @@
 # ABBY.REN-SEEDANCE 项目规则
 
+2026-09-27剪辑反馈补充：按ABBY的 `references/local-video-editing.md`，剪辑时主动指出有依据的人物表情细节与B-roll机会，附原片/成片时间点、具体观察和下次提示词改法；区分已有素材可修、需要补拍及创作建议，不自动生成。具体复盘与媒体只留本地。
+
 2026-09-27执行技能已补充：ABBY保持唯一创作入口，按 `references/installed-execution-skills.md` 自动调用dreamina-cli、dreamina-cli-image2video及auto-subtitles；生成无BGM无字幕，剪辑锁定后按实际对白加字幕。安装、登录、生成、转写和成片分别验收，不以安装冒充全链路已跑通。
 
 2026-09-27剧本到成片补充：用户先选定剧本，再由助手自动调用必要技能、写精细提示词、代办即梦生成与下载、审片剪辑并交付完整视频。当前模式生成阶段无BGM无字幕，后期按实际对白校对并嵌入字幕，最终仍无BGM。执行 `references/generated-clean-final-captioned.md`；不再要求用户逐段生成或逐份审批提示词，预算按已批准范围执行。
