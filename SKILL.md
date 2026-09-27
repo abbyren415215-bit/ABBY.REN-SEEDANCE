@@ -14,6 +14,8 @@ description: >
 
 ## 规则优先级与资料路由
 
+- 用户要求看人物与情节的联系时，执行 [人物与剧情关系画布](references/story-relationship-canvas.md)，以人物、场景、物品和段落因果连线审阅，不默认即梦画布。Abby图片读取 [图片质量与多视图规范](IMAGE_GENERATION_GUIDELINES.md)，图片与视频按用户指定的不同工具执行。
+
 - 用户选择先素材画布确认、逐段生成与验收时，优先执行 [逐段审核与成本汇报](references/scene-by-scene-review.md)：所有人物、场景、物品先可视化审阅；每段须明确授权，生成后交视频并汇报本集累计成本；全部通过再合成。不套用旧批次自动推进或自动重试。
 
 优先级：用户当前明确决定 → 项目已确认状态与规则 → 本入口与 ABBY 增强 → JACOB 上游原文。先看 [规则裁决](references/rule-precedence.md)，避免把上游旧默认值重新覆盖到项目上。
