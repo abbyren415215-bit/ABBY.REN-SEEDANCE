@@ -14,6 +14,8 @@ description: >
 
 ## 规则优先级与资料路由
 
+- Abby有声片段固定绑定用户指定个人音色，不另造声音；不自动加句首叹气、刻意吸气或额外“唉”。执行[固定音色与自然开口](references/identity-and-references.md)，后期逐句检查多余叹气及口型同步。
+
 - 用户要求看人物与情节的联系时，执行 [人物与剧情关系画布](references/story-relationship-canvas.md)，以人物、场景、物品和段落因果连线审阅，不默认即梦画布。Abby图片读取 [图片质量与多视图规范](IMAGE_GENERATION_GUIDELINES.md)，图片与视频按用户指定的不同工具执行。
 
 - 用户选择先素材画布确认、逐段生成与验收时，优先执行 [逐段审核与成本汇报](references/scene-by-scene-review.md)：所有人物、场景、物品先可视化审阅；每段须明确授权，生成后交视频并汇报本集累计成本；全部通过再合成。不套用旧批次自动推进或自动重试。

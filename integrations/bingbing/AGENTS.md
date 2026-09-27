@@ -1,5 +1,7 @@
 # 《冰冰和小乌龟》工作目录接入规则
 
+2026-09-27固定音色与开口更新：Abby每次有声生成均实际绑定用户指定的同一份个人音色，不另生成、不默认从前片重建；声音素材与路径仅留本地。按 `references/identity-and-references.md` 执行，台词自然直接开口，不自动加句首叹气、刻意吸气或“唉”；音色参考不复制呼吸表演，剪辑按 `references/local-video-editing.md` 逐句核对。
+
 2026-09-27关系画布补充：用户要看人物与情节联系时，执行ABBY的 `references/story-relationship-canvas.md`；用人物、剧情、场景、物品及因果连线组织审阅，不默认即梦画布。Abby图片读取 `IMAGE_GENERATION_GUIDELINES.md`，优先复用用户认可的图片；生图与视频采用各自获准工具，画布批注不等于生成授权。
 
 2026-09-27剪辑反馈补充：按ABBY的 `references/local-video-editing.md`，剪辑时主动指出有依据的人物表情细节与B-roll机会，附原片/成片时间点、具体观察和下次提示词改法；区分已有素材可修、需要补拍及创作建议，不自动生成。具体复盘与媒体只留本地。
