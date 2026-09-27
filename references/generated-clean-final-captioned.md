@@ -39,7 +39,9 @@ ABBY仍是唯一创作入口。外部执行/字幕模块由ABBY按需调用，�
 
 后期依赖需要分别核实：本机转写引擎及模型可运行、FFmpeg具备所需字幕滤镜、中文字体可用、中英混合音频实际识别效果、字幕烧录与音轨保留。既有 `assemble_episode.py` 只负责合成，不宣称它已经完成语音识别或字幕烧录。
 
-## 2026-09-27 GitHub调研结论（候选，不是安装清单）
+## 2026-09-27 GitHub调研记录（安装前的历史快照）
+
+用户随后批准安装前三个执行/字幕模块；当前路由和适配以[已安装执行技能](installed-execution-skills.md)为准。下表保留当时的选择依据，不代表当前安装状态。
 
 | 项目 | 已读到的能力 | 与本工作流的取舍 |
 |---|---|---|
@@ -52,6 +54,6 @@ ABBY仍是唯一创作入口。外部执行/字幕模块由ABBY按需调用，�
 
 官方产品依据：[Dreamina CLI说明](https://dreamina.capcut.com/tools/dreamina-cli)介绍提交、异步任务、查询和下载；具体账号资格及中国站当前能力仍须实测，不以营销页面推断会员权限。
 
-当前候选能力快照：[CLI v1.4.18](https://github.com/full-aigc-skills/dreamina-skills/blob/main/skills/dreamina-cli/references/dreamina-cli-v1.4.18-contract.md)。本轮仅调研，未安装这些候选，未提交生成。
+当前候选能力快照：[CLI v1.4.18](https://github.com/full-aigc-skills/dreamina-skills/blob/main/skills/dreamina-cli/references/dreamina-cli-v1.4.18-contract.md)。调研阶段未安装这些候选；后续安装已完成，仍未提交生成。
 
 Mac语音识别底层可评估[MLX Whisper](https://github.com/ml-explore/mlx-examples/tree/main/whisper)，它提供本地转写及逐词时间码；这是底层工具，不是另一套创作skill。模型选择按实际硬件与质量测试，不引用第三方速度宣传作保证。
