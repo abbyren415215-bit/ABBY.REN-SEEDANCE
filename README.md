@@ -2,10 +2,11 @@
 
 完整白模/真人舞蹈任务自动使用[动作参考舞蹈模块](references/reference-driven-dance.md)：完整动作拆解、中近景主体、动作衔接B-roll与真实末势，见稳定协议0.16。
 
-基于JACOB导演与摄影框架，合并ABBY历次实拍优化的统一Seedance提示词工作流。
+基于JACOB导演与摄影框架，合并ABBY历次实拍优化的统一Seedance视频工作流，覆盖提示词设计与已有视频的本地剪辑交付。
 
 从[SKILL.md](SKILL.md)进入。每镜头具体设计焦段、景别、机位、运镜、光线、声音与结束状态；人物、场景、道具和音色分别绑定，创作规则服从用户已确认项目。
 
+- [本地视频剪辑：删减、变速、配乐与照片结尾](references/local-video-editing.md)
 - [摄影模板与焦段库](references/cinematography.md)
 - [新旧规则裁决](references/rule-precedence.md)
 - [ABBY表演、物理、连续性](references/abby-production-rules.md)

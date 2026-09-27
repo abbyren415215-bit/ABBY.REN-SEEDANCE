@@ -1,5 +1,7 @@
 # JACOB 来源入口
 
+实际本地剪辑先执行 [ABBY本地视频剪辑](local-video-editing.md)；下方JACOB原文按需补充，不能覆盖用户当前剪辑范围。
+
 原作者：Jacob Ye，CC BY 4.0。收录版本：上游提交 `f74d2fcfa803cec4007fdfbeae9cde8831693ee7`（发布记录2.1）。
 
 原文见 [docs/post-production.md](../upstream/jacob/docs/post-production.md)。本文件保持旧引用路径可用，原文集中维护，不复制第二套正文。
