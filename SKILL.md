@@ -50,6 +50,8 @@ description: >
 
 ## 工作顺序
 
+生活短剧选题、剧本与生成规划优先执行[剧情密度与预算](references/compact-story-budget.md)：先完成钩子、因果反转和首尾兑现，再排必要时长与条数；不默认四次30秒。用户已明确指定的现有作品长度除外。
+
 自然互动按[稳定协议0.15](projects/bingbing/production-protocol.md#015-自然表演与动作衔接2026-09-23用户确认)执行：少写逐项摆姿势，动作由意图和对方反应带动，允许连续衔接与非同步回应；稳定机位不要求演员冻结。
 
 B-roll按[稳定协议0.14](projects/bingbing/production-protocol.md#014-按叙事主动安排-b-roll2026-09-23用户确认)与[摄影规范](references/cinematography.md)主动编排。剧情与日常番外要有实际场景/细节插镜，不只描述人脸背后的背景；切镜服务地点、动作、时间或结果，保留关键表演，不强套明确一镜到底及固定机位弹唱。

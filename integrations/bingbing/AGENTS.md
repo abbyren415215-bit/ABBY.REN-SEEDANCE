@@ -1,5 +1,7 @@
 # 《冰冰和小乌龟》工作目录接入规则
 
+2026-09-27剧情密度更新：生活短剧先选好题材、钩子、因果反转与首尾呼应，再按有效信息决定时长和生成条数，不再默认4×30秒。执行ABBY的`references/compact-story-budget.md`；已明确批准的其他作品长度不擅改，预算仍按实际报价与授权。
+
 2026-09-27固定音色与开口更新：Abby每次有声生成均实际绑定用户指定的同一份个人音色，不另生成、不默认从前片重建；声音素材与路径仅留本地。按 `references/identity-and-references.md` 执行，台词自然直接开口，不自动加句首叹气、刻意吸气或“唉”；音色参考不复制呼吸表演，剪辑按 `references/local-video-editing.md` 逐句核对。
 
 2026-09-27关系画布补充：用户要看人物与情节联系时，执行ABBY的 `references/story-relationship-canvas.md`；用人物、剧情、场景、物品及因果连线组织审阅，不默认即梦画布。Abby图片读取 `IMAGE_GENERATION_GUIDELINES.md`，优先复用用户认可的图片；生图与视频采用各自获准工具，画布批注不等于生成授权。
