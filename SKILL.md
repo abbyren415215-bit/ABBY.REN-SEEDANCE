@@ -14,6 +14,8 @@ description: >
 
 ## 规则优先级与资料路由
 
+- 用户选用10—15秒逐段模式时，执行[短段审核与接续](references/scene-by-scene-review.md#10—15秒短段模式2026-10-04)：完整剧本先行，每次仅提交获批一段，验收后调整下一段；该任务不再默认30秒。
+
 - Abby有声片段固定绑定用户指定个人音色，不另造声音；不自动加句首叹气、刻意吸气或额外“唉”。执行[固定音色与自然开口](references/identity-and-references.md)，后期逐句检查多余叹气及口型同步。
 
 - 用户要求看人物与情节的联系时，执行 [人物与剧情关系画布](references/story-relationship-canvas.md)，以人物、场景、物品和段落因果连线审阅，不默认即梦画布。Abby图片读取 [图片质量与多视图规范](IMAGE_GENERATION_GUIDELINES.md)，图片与视频按用户指定的不同工具执行。
@@ -25,7 +27,7 @@ description: >
 - 已有视频剪辑、删除冗余、快慢节奏、配乐卡点或照片结尾：直接执行 [本地视频剪辑](references/local-video-editing.md)，检查素材后实际导出成片；不转回提示词生成，不把旧片素材或音乐偏好自动混入新任务。剪辑时主动反馈人物表情细节与B-roll机会，附时间点和提示词改法，帮助下一次生成。
 - 完整视频及补镜提示词自动使用 [精细提示词标准](references/detailed-prompt-standard.md)：以用户认可的《发如雪》写法为标杆，逐镜摄影＋镜内动作节拍＋具体衔接，不压成几秒一句的概述；芭蕾不作为成功范例。对口型和无文字栏入口按各自模式执行。
 - 用户已批准补充即梦执行与字幕技能：按 [已安装执行模块](references/installed-execution-skills.md) 自动调用 `dreamina-cli`、`dreamina-cli-image2video`、`auto-subtitles`；ABBY保持唯一创作入口，已批准预算内代办，不要求用户每次点名。
-- 用户最新选择 [剧本确认后自动制作与后期字幕](references/generated-clean-final-captioned.md)：先给剧本，用户选定后助手写精细提示词并代办生成、下载、审片、剪辑及字幕成片；当前4场各30秒。生成无BGM无字幕，后期按实际对白加字幕，最终无BGM。预算、版本和队列按 [审批制整集制作](references/approval-led-production.md) 执行，不逐场/逐份重复要审批。
+- 用户最新选择 [剧本确认后自动制作与后期字幕](references/generated-clean-final-captioned.md)：先给剧本，用户选定后助手写精细提示词并代办生成、下载、审片、剪辑及字幕成片；时长按当前选择，旧4场各30秒仅限明确沿用的历史任务。生成无BGM无字幕，后期按实际对白加字幕，最终无BGM。预算、版本和队列按 [审批制整集制作](references/approval-led-production.md) 执行；用户选择逐段审核时，按逐段授权与验收执行。
 - AI对口型唱歌、数字人上传歌曲、逐句弹唱或闭眼演唱：优先读取 [对口型唱歌](references/lip-sync-singing.md)，自动进入逐句音频驱动模式。一个歌词片段对应一次生成，动作描述按当前界面上限压缩；不套用短剧禁歌、30秒截止、强制场景插镜和五段式输出。
 - 白模/真人完整动作参考、舞蹈迁移及舞蹈补镜：自动读取 [动作参考舞蹈](references/reference-driven-dance.md)。以完整参考拆解关键动作，中近景为主，在真实动作衔接处安排 B-roll；本模式的画幅、动作时间及真实末势优先于通用独立短片和剧集默认，不擅自改成前5秒试片。
 - 其他完整视频提示词：使用 [摄影与逐镜头模板](references/cinematography.md)。每个独立镜头都要写具体焦段与可见效果。
