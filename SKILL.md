@@ -52,6 +52,8 @@ description: >
 
 ## 工作顺序
 
+生活短剧的选题、完整剧本、改稿或系列规划，先按[编剧设计与审稿](references/screenwriting-and-review.md)按需读取已安装GitHub参考：人物驱动的因果转折、场景变化、对白与交稿前审查；社会题材研究按需启用。来源只作参考，ABBY仍唯一入口，具体候选不自动公开或进入生成。
+
 生活短剧、亲子关系故事或参考片分析，按[关系驱动的短剧](references/relationship-driven-short-drama.md)核对事件与关系两条变化、选择反转及动作呼应；具体分析与候选设定只留本地，不自动开拍。
 
 本系列剧集剪辑固定执行[完整剧情与统一双语字幕](references/bilingual-editing-standard.md)：保留关键对话和剧情节点，每句均配中文上行、英文下行的统一字幕，模板随剪辑资产保存。
