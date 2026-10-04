@@ -1,5 +1,7 @@
 # ABBY.REN-SEEDANCE 项目规则
 
+2026-10-04关系叙事与参考片分析：生活短剧按ABBY的 `references/relationship-driven-short-drama.md` 补充外部事件与关系变化、动机铺垫、选择反转、证据边界及动作首尾呼应；剪辑保留关系修复，压缩重复解释。系列人物成长跨集保留，困难与日常轻松交替；具体参考片和候选系列仅留本地，不作为已确认剧情或生成授权。
+
 2026-09-27剪辑反馈补充：按ABBY的 `references/local-video-editing.md`，剪辑时主动指出有依据的人物表情细节与B-roll机会，附原片/成片时间点、具体观察和下次提示词改法；区分已有素材可修、需要补拍及创作建议，不自动生成。具体复盘与媒体只留本地。
 
 2026-09-27执行技能已补充：ABBY保持唯一创作入口，按 `references/installed-execution-skills.md` 自动调用dreamina-cli、dreamina-cli-image2video及auto-subtitles；生成无BGM无字幕，剪辑锁定后按实际对白加字幕。安装、登录、生成、转写和成片分别验收，不以安装冒充全链路已跑通。

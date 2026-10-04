@@ -50,6 +50,8 @@ description: >
 
 ## 工作顺序
 
+生活短剧、亲子关系故事或参考片分析，按[关系驱动的短剧](references/relationship-driven-short-drama.md)核对事件与关系两条变化、选择反转及动作呼应；具体分析与候选设定只留本地，不自动开拍。
+
 本系列剧集剪辑固定执行[完整剧情与统一双语字幕](references/bilingual-editing-standard.md)：保留关键对话和剧情节点，每句均配中文上行、英文下行的统一字幕，模板随剪辑资产保存。
 
 生活短剧选题、剧本与生成规划优先执行[剧情密度与预算](references/compact-story-budget.md)：先完成钩子、因果反转和首尾兑现，再排必要时长与条数；不默认四次30秒。用户已明确指定的现有作品长度除外。
