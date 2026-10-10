@@ -8,6 +8,8 @@
 
 - [Abby图片画质、人物一致性与固定多视图规范](IMAGE_GENERATION_GUIDELINES.md)
 - [本地视频剪辑：删减、变速、配乐与照片结尾](references/local-video-editing.md)
+- [导演风格参考：王家卫／马力克／希区柯克](references/director-style-modules.md)
+- [旧导演入口归档与恢复](integrations/legacy-routing.md)
 - [摄影模板与焦段库](references/cinematography.md)
 - [新旧规则裁决](references/rule-precedence.md)
 - [ABBY表演、物理、连续性](references/abby-production-rules.md)

@@ -1,9 +1,14 @@
-# 旧技能入口兼容
+# 旧导演入口归档
 
-现有jacob-seedance与seedance-director可继续用于各自独立任务。本项目不删除它们，也不修改其他项目的偏好。
+2026-10-09用户明确批准精简：`jacob-seedance`、`seedance-director`不再作为本机独立技能入口；ABBY视频创作统一从`abby-seedance/SKILL.md`进入。本规则替代旧“保留两个独立入口继续自动发现”的做法。
 
-两份旧入口增加以下本项目专用路由，并同步保存于GitHub，供其他机器安装时接入：
+## 归档与保留
 
-> 《冰冰和小乌龟》、ABBY或ABBY.REN-SEEDANCE任务以已安装abby-seedance/SKILL.md为唯一入口，本文件后续默认不叠加执行。用户禁止工具时使用会话中已知ABBY规则，不为读取另一入口调用工具。维护更新提交到ABBY仓库并推送GitHub；其他独立项目仍按本技能原有规则执行。
+- 两个已安装目录完整移到Codex用户目录的 `archived-skills/2026-10-09-director-entrypoints/`，位于技能自动发现目录之外；各文件前后SHA-256一致，恢复位置和校验值保存在该目录的本地 `archive-manifest.json`。
+- 不删除原文、许可证、脚本、历史文件或用户改动。不向公开仓库上传本机归档；仓库内 `upstream/jacob/` 与 `archive/seedance-director/` 原有来源快照照常保留，仅供按需参考。
+- 保留摄影、真人表演、FPV资料库以及dreamina-cli、dreamina-cli-image2video、auto-subtitles执行模块。图片工作流独立，不因这次视频入口整理而删除。
+- 在新机器只需安装ABBY；其他机器若仍有这两个入口，按用户本次精简决定先完整归档再移出发现目录，不能只改描述后宣称已停用。
 
-在各旧SKILL.md主标题之后、原流程之前插入此段；不改动原框架正文。描述字段注明“ABBY项目转至abby-seedance”。统一仓库内来源入口命名为SKILL.source.md，避免递归发现同名技能；原始内容与许可仍可追溯。
+## 恢复
+
+用户要求恢复时，核对本地归档清单并复制回对应技能目录；目标存在则先比较，不覆盖现有文件。归档不是永久删除，也不代表授权运行来源脚本。

@@ -4,6 +4,10 @@
 
 2026-09-21追加授权Liyue视频导演：其真人表演、情侣戏、物理因果及冲突审查也用于剧集，按[Liyue接入裁决](liyue-realistic-performance.md)执行；不改变其他来源原有适用边界。
 
+## 导演风格追加接入
+
+2026-10-09用户批准DirectorSKILL的三个方向：王家卫、马力克、希区柯克；实际读取、固定版本与冲突裁决见[导演风格模块](director-style-modules.md)。独立保存为参考库，不启动第二套导演流程。
+
 ## 编剧参考库追加接入
 
 2026-10-04用户批准另行安装三套编剧参考，见[编剧设计与审稿](screenwriting-and-review.md)的固定版本、范围、实际读取路由及冲突裁决。它们位于独立的 `reference-libraries/abby-screenwriting/`，不与此处摄影库混装；不新增自动执行入口，不运行上游脚本。
