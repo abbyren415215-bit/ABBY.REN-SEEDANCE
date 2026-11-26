@@ -6,6 +6,7 @@
 
 从[SKILL.md](SKILL.md)进入。每镜头具体设计焦段、景别、机位、运镜、光线、声音与结束状态；人物、场景、道具和音色分别绑定，创作规则服从用户已确认项目。
 
+- [JJTV 各系列制作规矩（Claude Code 线，2026-11-25 同步）](references/jjtv/README.md)
 - [Abby图片画质、人物一致性与固定多视图规范](IMAGE_GENERATION_GUIDELINES.md)
 - [本地视频剪辑：删减、变速、配乐与照片结尾](references/local-video-editing.md)
 - [导演风格参考：王家卫／马力克／希区柯克](references/director-style-modules.md)
